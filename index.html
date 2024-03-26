@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether Forcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+
+</head>
+
+<body onload="DefaultScreen()">
+    <center>
+      <div class="card" id="mainCard">
+        
+        <div class="container">
+          <input type="text" class="inputCity" id="cityInput" placeholder="Enter City">
+          <button class="searchButton" onclick="GetInfo()"><svg class="lnr lnr-magnifier"><use xlink:href="#lnr-magnifier"></use></svg></button>
+          <h2 id="cityName">Dhaka</h2>
+          <h3 id="day1">Sunday</h3>
+      </div>
+      
+      <section style="margin-bottom: 250px;">
+          <div class="todaysWeather">
+              <div class="info" id="information">
+                  <p class="temp1" id="todaysTemp">35 &deg;C</p>
+                  <p class="feelsLike" id="todaysFeels">Feels like:</p>
+                  <p class="minTemp" id="todaysMin">Minimum:</p>
+                  <p class="maxTemp" id="todaysMax">Maximum:</p>
+              </div>
+              
+              <div class="icon">
+                  <div class="image"><img src="02d@2x.png" class="imgClass" id="img1" alt=""></div>
+                  <div class="discription" id="todaysCondition"><p>Sunny</p></div>
+              </div>
+          </div>   
+      </section>
+
+      <section id="futureWeather">
+          <div class="row">
+              <div class="column">
+                <div class="card" id="smallCards">
+                  <div id="day2"><p>Sunday</p></div>
+                  <div class="image"><img src="02d@2x.png" class="imgClass" id="img2" alt=""></div>
+                  <div id="day2Condition"><p>Sunny</p></div>
+                  <p id="temp2">35 &deg;C</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card" id="smallCards">
+                  <div id="day3"><p>Sunday</p></div>
+                  <div class="image"><img src="02d@2x.png" class="imgClass" id="img3" alt=""></div>
+                  <div id="day3Condition"><p>Sunny</p></div>
+                  <p id="temp3">35 &deg;C</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card" id="smallCards">
+                  <div id="day4"><p>Sunday</p></div>
+                  <div class="image"><img src="02d@2x.png" class="imgClass" id="img4" alt=""></div>
+                  <div id="day4Condition"><p>Sunny</p></div>
+                  <p id="temp4">35 &deg;C</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card" id="smallCards">
+                  <div id="day5"><p>Sunday</p></div>  
+                  <div class="image"><img src="02d@2x.png" class="imgClass" id="img5" alt=""></div>
+                  <div id="day5Condition"><p>Sunny</p></div>
+                  <p id="temp5">35 &deg;C</p>
+                </div>
+              </div>
+            </div>
+      </section>
+      
+  </center>
+
+
+
+      </div>
+        
+
+    <script src="script.js"></script>
+
+    <!-- 
+    <section>
+        <div class="card" id="futureWeather2">
+            <div class="image"><img src="02d@2x.png" class="imgClass" id="img2" alt=""></div>
+            <div id="day2Condition"><p>Sunny</p></div>
+            <p class="temp2">35 &deg;C</p>
+
+        
+            <div class="image"><img src="02d@2x.png" class="imgClass" id="img3" alt=""></div>
+            <div id="day3Condition"><p>Sunny</p></div>
+            <p class="temp3">35 &deg;C</p>
+         
+    
+            <div class="image"><img src="02d@2x.png" class="imgClass" id="img4" alt=""></div>
+            <div id="day4Condition"><p>Sunny</p></div>
+            <p class="temp4">35 &deg;C</p>
+            
+    
+            <div class="image"><img src="02d@2x.png" class="imgClass" id="img2" alt=""></div>
+            <div id="day2Condition"><p>Sunny</p></div>
+            <p class="temp2">35 &deg;C</p>
+           
+        </div>
+    </section>
+    -->
+
+
+</body>
+</html>

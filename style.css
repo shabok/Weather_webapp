@@ -1,0 +1,223 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    background-image: url('https://source.unsplash.com/random/1600×900/?weather');
+    background-size: cover;
+}
+
+#mainCard{
+    background-color:#000000d0;
+    font-family: 'Open Sans', sans-serif;
+    width: fit-content;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    
+}
+
+
+.container{
+    margin-top: 20px;
+}
+
+.inputCity {
+    width: 20em;
+    height: 1.8em;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    padding: 0.4em;
+    background: #7c7c7c2b;
+    color: white;
+    text-indent: 0.5em;
+}
+
+.searchButton {
+    
+    width: 2.5em;
+    height: 2.5em;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    margin-left: 0.3em;
+    padding: 0.4em;
+    background: snow;
+}
+
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.25em;
+  }
+
+#cityName{
+    margin-bottom: auto;
+    padding-bottom: 0%;
+}
+
+#day1{
+    margin-top: auto;
+}
+
+.column1{
+    text-align: left;
+    
+}
+
+.todaysWeather{
+   width: 100%;
+}
+
+.info{
+    width: 50%;
+    float: left;
+}
+
+.icon{
+    width: 50%;
+    float: right;
+}
+
+#img1{
+    height: 150px;
+    margin-bottom: auto;
+    
+}
+
+#img2{
+    height: 100px;
+    margin-bottom: auto;
+    
+}
+
+#img3{
+    height: 100px;
+    margin-bottom: auto;
+    
+}
+
+#img4{
+    height: 100px;
+    margin-bottom: auto;
+    
+}
+
+#img5{
+    height: 100px;
+    margin-bottom: auto;
+    
+}
+
+
+.discription{
+    text-indent: 2em;
+}
+
+.temp1{
+    font-size: 60px;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+    align-self: center;
+}
+
+#todaysCondition{
+    margin-top: auto;
+    padding-top: auto;
+    text-indent: 0em;
+    font-size: 25px;
+    font-weight: 600;
+}
+#img1{
+    height: 150px;
+    margin-bottom: auto;
+    
+}
+
+#img2{
+    height: 50px;
+    margin-bottom: auto;
+    
+}
+
+#img3{
+    height: 50px;
+    margin-bottom: auto;
+    
+}
+
+#img4{
+    height: 50px;
+    margin-bottom: auto;
+    
+}
+
+#img5{
+    height: 50px;
+    margin-bottom: auto;
+    
+}
+
+#futureWeather{
+    margin-top: 260px;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px 10px;
+  }
+  
+  .row{
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+                                                                                
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Style the counter cards */
+  #smallCards {
+    background: #313030d0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    border-radius: 30px;
+  }
+
+  #day2{
+      font-size: 12px;
+      font-weight: bold;
+  }
+
+  #day3{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+  #day4{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+  #day5{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+  
